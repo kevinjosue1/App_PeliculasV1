@@ -1,13 +1,19 @@
 import './App.css';
 
-import Data from './componentes/inicio';
+import Navbar from './components/navbar';
+
+
+
+
+
+
 
 
 function App() {
   return (
     <>
- 
-    <Data/>
+      <Navbar/>
+  
     </>
   );
 }
