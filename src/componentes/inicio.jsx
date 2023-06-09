@@ -1,4 +1,4 @@
-import React,{useEffect , useState } from 'react';
+/*import React,{useEffect , useState } from 'react';
 import axios  from "axios";
 
 function Inicio() {
@@ -42,3 +42,4 @@ function Inicio() {
 }
 
 export default Inicio
+*/
