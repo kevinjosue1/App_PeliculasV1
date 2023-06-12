@@ -1,8 +1,5 @@
 import './App.css';
-
-import Navbar from './components/navbar';
-
-
+import Inicio from './pages/Inicio';
 
 
 
@@ -12,7 +9,8 @@ import Navbar from './components/navbar';
 function App() {
   return (
     <>
-      <Navbar/>
+       
+      <Inicio/>
   
     </>
   );
