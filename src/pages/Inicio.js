@@ -13,6 +13,8 @@ const [list, setlist] = useState([]);
 useEffect(() => {
 const fetchData = async () => {
 const url = 'https://api.themoviedb.org/3/movie/popular?api_key=1bbc4fa27e742f1ed7ce2b28c9c3e74d'
+//const API_SEARCH = 'https://api.themoviedb.org/3/search/movie?query=Jack+Reacher&api_key=6d429c604f9c8aec354530298a83f754' 
+
 try{
   const result = await axios.get(url);
   console.log('araund the word');
@@ -25,6 +27,7 @@ try{
 
 fetchData();
 }, []);
+
 
   
 return (

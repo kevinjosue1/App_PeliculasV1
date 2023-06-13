@@ -1,6 +1,6 @@
 import './App.css';
 import Inicio from './pages/Inicio';
-
+import Barra from './components/navbar';
 
 
 
@@ -9,7 +9,7 @@ import Inicio from './pages/Inicio';
 function App() {
   return (
     <>
-       
+      <Barra/>
       <Inicio/>
   
     </>
